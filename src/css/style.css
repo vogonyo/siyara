@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+.header-logo {
+  max-width: 500px; }
+
+.navbar {
+  color: #fff; }
+  .navbar a.menu-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    display: inline; }
+
+.card {
+  border: 0; }
+
+.carousel-item {
+  height: 450px;
+  background-size: cover;
+  background-position: center; }
+
+.carousel-image-1 {
+  background: url("../images/Site Images/Header-01.png");
+  background-size: cover;
+  background-position: center; }
+
+.carousel-image-2 {
+  background: url("../images/Site Images/Header-01.png");
+  background-size: cover;
+  background-position: center; }
+
+.carousel-image-3 {
+  background: url("../images/Site Images/Header-01.png");
+  background-size: cover;
+  background-position: center; }
+
+.carousel-image-4 {
+  background: url("../images/Site Images/Header-01.png");
+  background-size: cover;
+  background-position: center; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../images/Pics/abdullah-oguk-256739-unsplash.jpg");
+  background-size: cover;
+  background-position: right 20px bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(52, 178, 179, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#resources {
+  background: url("../images/SiyaraLogo-01.png");
+  background-size: 60%;
+  background-position: center top 65px;
+  background-attachment: scroll;
+  background-repeat: no-repeat; }
+
+.body-image {
+  background: url("../images/Site Images/BodyImage-01.png");
+  background-position: right center; }
+
+.centeredcard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center; }
+
+.header-line-you-i {
+  width: 92px;
+  height: 6px;
+  border-bottom: 1px solid #34b2b3;
+  position: absolute; }
+
+.header-line-resources {
+  width: 156px;
+  height: 6px;
+  border-bottom: 1px solid #34b2b3;
+  position: absolute;
+  text-align: center;
+  left: 488px; }
+
+#homedivs {
+  background: url("../images/SiyaraLogo-01.png");
+  background-repeat: no-repeat;
+  background-size: 10
