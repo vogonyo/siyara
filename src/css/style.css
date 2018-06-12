@@ -1,3 +1,4 @@
+/*basic resets*/
 html {
   box-sizing: border-box; }
 
@@ -9,19 +10,171 @@ html {
 .header-logo {
   max-width: 500px; }
 
+/*navbar*/
 .navbar {
   color: #fff; }
+  .navbar .intouchbtn {
+    font-size: 19px;
+    margin-bottom: 23px; }
+  .navbar .navbar-dark .navbar-nav .nav-link {
+    margin-bottom: -34px; }
   .navbar a.menu-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 24px;
-    display: inline; }
+    font-size: 24px; }
+  .navbar .fa {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px; }
+  .navbar .fa-search {
+    color: #34b2b3;
+    font-size: 30px; }
+  .navbar img.svg {
+    font-size: 30px;
+    fill: #34b2b3; }
 
+/*card reset removing border outline*/
 .card {
   border: 0; }
 
+.card-body {
+  background-color: rgba(255, 255, 255, 0); }
+
+/*
+ span elements styling -texts -->>> beginning
+*/
+.heading-carousel-main {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 70px; }
+
+.heading-carousel-sub {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 70px; }
+
+.header-subheading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 24px; }
+
+.heading-carousel-btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  top: 200px;
+  padding: 16px;
+  width: 280px;
+  margin-top: 70px;
+  border-radius: 16px;
+  text-transform: uppercase; }
+
+.header-subheading1 {
+  display: block; }
+
+.header-subheading2 {
+  display: block; }
+
+.heading-overlay {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 50px; }
+
+.subheading-overlay {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 30px; }
+
+.header-you-i {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 60px; }
+
+.header-you-i:after {
+  content: '';
+  width: 80%;
+  border-bottom: solid 2px #34b2b3;
+  position: absolute;
+  left: 5%;
+  top: 100%;
+  z-index: 1; }
+
+.underyoui-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px; }
+
+.subheading-homedivs {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 24px; }
+
+.resources {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 60px; }
+
+.resources:after {
+  content: '';
+  width: 80%;
+  border-bottom: solid 2px #34b2b3;
+  position: absolute;
+  left: 5%;
+  top: 100%;
+  z-index: 1; }
+
+.card-headings {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px; }
+
+.footer-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px; }
+
+.footer-text-logo {
+  font-size: 43px; }
+
+a.quick-links {
+  color: inherit;
+  text-decoration: none; }
+
+.mobile {
+  height: 12px;
+  display: inline-block;
+  margin-left: 3px; }
+
+.contact {
+  display: inline-block;
+  height: 24px;
+  float: right; }
+
+.email {
+  display: inline-block; }
+  .email .fa-envelope {
+    padding-right: 10px; }
+
+.email-content {
+  display: inline-block;
+  margin-left: 61px; }
+
+.contact-info {
+  font-size: 26px; }
+
+/*
+ End of span and minor stylings
+*/
+/*start of carousel styling*/
 .carousel-item {
-  height: 450px;
+  height: 800px;
   background-size: cover;
   background-position: center; }
 
@@ -46,9 +199,19 @@ html {
   background-position: center; }
 
 .carousel-indicators li {
+  background-color: #fff;
   width: 10px;
   height: 10px; }
 
+.carousel-indicators .active {
+  background-color: #34b2b3; }
+
+.carousel-caption {
+  top: 180px;
+  left: 180px; }
+
+/*end of carousel styling*/
+/*overlay-section styling*/
 #home-heading {
   position: relative;
   min-height: 200px;
@@ -69,16 +232,25 @@ html {
   height: 100%; }
 
 #resources {
-  background: url("../images/SiyaraLogo-01.png");
+  background: url("../images/SiyaraLogo-02.png");
   background-size: 60%;
-  background-position: center top 65px;
+  background-position: center top 105px;
   background-attachment: scroll;
   background-repeat: no-repeat; }
 
 .body-image {
   background: url("../images/Site Images/BodyImage-01.png");
-  background-position: right center; }
+  background-size: cover; }
 
+#homedivs {
+  background: url("../images/SiyaraLogo-02.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-y: top;
+  background-position-x: center;
+  left: 10px; }
+
+/*centering elements in card*/
 .centeredcard {
   position: absolute;
   top: 50%;
@@ -89,21 +261,36 @@ html {
   color: #fff;
   text-align: center; }
 
-.header-line-you-i {
-  width: 92px;
-  height: 6px;
-  border-bottom: 1px solid #34b2b3;
-  position: absolute; }
+/* Image Overlay styling*/
+.pic-card {
+  position: relative; }
 
-.header-line-resources {
-  width: 156px;
-  height: 6px;
-  border-bottom: 1px solid #34b2b3;
+.pic-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  text-align: center;
-  left: 488px; }
+  transition: background-color 0.5s ease; }
 
-#homedivs {
-  background: url("../images/SiyaraLogo-01.png");
-  background-repeat: no-repeat;
-  background-size: 10
+.content-inner {
+  position: relative;
+  display: none; }
+
+.pic-card:hover .pic-overlay {
+  background-color: rgba(52, 178, 179, 0.8); }
+
+.pic-card:hover .content-inner {
+  border-top: solid 2px  #fff;
+  display: block;
+  cursor: pointer; }
+
+.pic-card:hover .card-headings {
+  font-size: 15px;
+  padding: 0;
+  cursor: pointer; }
+
+.pic-card:hover .p-overlay {
+  font-size: 15px; }
